@@ -11,7 +11,8 @@
 
     <properties>
         <java.version>11</java.version>
-        <vaadin.version>14.8.3</vaadin.version>
+        <vaadin.version>14.11.7</vaadin.version>
+    <vaadin.frontend.frontend.folder>${project.basedir}/frontend</vaadin.frontend.frontend.folder>
     </properties>
 
     <parent>
@@ -159,6 +160,7 @@
 
     <build>
         <defaultGoal>spring-boot:run</defaultGoal>
+         <finalName>plandesk</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

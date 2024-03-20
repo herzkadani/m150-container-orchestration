@@ -11,3 +11,4 @@
 package-lock.json
 frontend/node_modules/**
 frontend/generated/**
+webpack.generated.js
